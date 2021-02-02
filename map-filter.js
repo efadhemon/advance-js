@@ -1,23 +1,23 @@
 
 const numbers = [3, 4, 5, 6, 7, 8, 9];
-// const outPut = [];
+const outPut = [];
 
-// for (let i = 0; i < numbers.length; i++) {
-//     const element = numbers[i];
-//     const result = element * element;
-//     outPut.push(result);
-// }
+for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    const result = element * element;
+    outPut.push(result);
+}
 
-// function square(element){
-//     return element * element;
-// }
+function square(element){
+    return element * element;
+}
 
-// const result = numbers.map(function(element){
-//     return element * element;
-// });
+const result = numbers.map(function(element){
+    return element * element;
+});
 
-// const square = element=> element * element;
-// const result = numbers.map(square);
+const square = element=> element * element;
+const result = numbers.map(square);
 
 const bigger = numbers.filter(x=> x > 5)
 
