@@ -15,11 +15,11 @@
 // 'false'
 
 
-const age = '0';  
+const age = '      ';  
 let name = 'false';
 console.log(name);
-if (name) {
-    console.log('Condition is true.');
-}else{
+if (age == false) {
     console.log('Condition is false.');
+}else{
+    console.log('Condition is true.');
 }
